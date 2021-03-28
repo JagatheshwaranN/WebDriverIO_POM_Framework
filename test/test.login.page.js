@@ -4,11 +4,12 @@ const configData = require('../config')
 const constants = require('../constants')
 
 describe('Login page feature test', function(){
+    
     it('Verify login page title', function(){
         browser.setWindowSize(1366, 768)
         browser.url('/') 
         browser.pause(5000)
-        const title = loginPage.getLoginPageTitle();
+        const title = loginPage.getLoginPageTitle()
         console.log('Login page title is : ', title)
         assert.equal(constants.LOGIN_PAGE_TITLE, title, 'Login page title is not found')
     })
@@ -22,8 +23,9 @@ describe('Login page feature test', function(){
     })
 
     it('should return browser window size', function () {
-        const windowSize = browser.getWindowSize();
+        const windowSize = browser.getWindowSize()
         console.log(windowSize);
         // outputs `{ width: 1280, height: 767 }`
     })
+
 })

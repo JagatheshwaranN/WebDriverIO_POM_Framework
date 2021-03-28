@@ -1,4 +1,4 @@
-const elementUtil = require('../util/element.util')
+const elementUtil = require('../util/element')
 const constants = require('../constants')
 
 class LoginPage{

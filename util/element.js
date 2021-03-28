@@ -33,5 +33,9 @@ class ElementUtil{
         return browser.getTitle()
     }
 
+    moveToElement(element){
+        element.moveTo();
+    }
+
 }
 module.exports = new ElementUtil()
