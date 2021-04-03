@@ -1,5 +1,6 @@
 const elementUtil = require('../util/element')
 const constants = require('../constants')
+const browserAction = require('../util/browser.action')
 
 class LoginPage{
 
@@ -21,7 +22,7 @@ class LoginPage{
     //Login page actions
 
     getLoginPageTitle(){
-        return elementUtil.browser_getPageTitle(constants.LOGIN_PAGE_TITLE)
+        return browserAction.browser_getPageTitle(constants.LOGIN_PAGE_TITLE)
     }
 
     verifyLoginPageLogo(){

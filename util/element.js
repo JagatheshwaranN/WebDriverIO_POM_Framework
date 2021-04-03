@@ -25,17 +25,5 @@ class ElementUtil{
         return element.isDisplayed()
     }
 
-    browser_getPageTitle(pageTitle){
-        browser.waitUntil(function(){
-            return (browser.getTitle() === pageTitle)
-        }, 10000, 'Title is not displayed after the given time'
-        )
-        return browser.getTitle()
-    }
-
-    moveToElement(element){
-        element.moveTo();
-    }
-
 }
 module.exports = new ElementUtil()
