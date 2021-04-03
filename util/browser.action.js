@@ -1,5 +1,13 @@
 class BrowserAction{
 
+    browser_createNewSession(capabilities){
+        browser.newSession(capabilities)
+    }
+
+    browser_deleteSession(){
+        browser.deleteSession()
+    }
+    
     browser_getPageTitle(pageTitle){
         browser.waitUntil(function(){
             return (browser.getTitle() === pageTitle)
@@ -51,5 +59,6 @@ class BrowserAction{
     browser_fullSize(){
         browser.fullscreenWindow()
     }
+    
 }
 module.exports = new BrowserAction()
