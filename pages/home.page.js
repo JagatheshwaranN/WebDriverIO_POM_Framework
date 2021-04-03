@@ -1,5 +1,5 @@
 const elementUtil = require('../util/element')
-const constants = require('../constants')
+const testData = require('../data/constants')
 const mouseAction = require('../util/mouse.action')
 const browserAction = require('../util/browser.action')
 
@@ -28,7 +28,7 @@ class HomePage{
     // Home page actions
 
     getHomePageTitle(){
-        return browserAction.browser_getPageTitle(constants.HOME_PAGE_TITLE)
+        return browserAction.browser_getPageTitle(testData.HOME_PAGE_TITLE)
     }
 
     verifyHomePageLogo(){

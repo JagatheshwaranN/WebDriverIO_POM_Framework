@@ -1,7 +1,7 @@
 const { assert } = require('chai')
 const loginPage = require('../pages/login.page')
-const configData = require('../config')
-const constants = require('../constants')
+const configData = require('../data/config')
+const testData = require('../data/constants')
 
 describe('Login page feature test', function(){
     
@@ -11,7 +11,7 @@ describe('Login page feature test', function(){
         browser.pause(5000)
         const title = loginPage.getLoginPageTitle()
         console.log('Login page title is : ', title)
-        assert.equal(constants.LOGIN_PAGE_TITLE, title, 'Login page title is not found')
+        assert.equal(testData.LOGIN_PAGE_TITLE, title, 'Login page title is not found')
     })
 
     it('Verify login page logo', function(){

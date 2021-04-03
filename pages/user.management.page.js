@@ -1,8 +1,5 @@
 const { assert } = require('chai')
 const elementUtil = require('../util/element')
-const constants = require('../constants')
-
-
 
 class UserManagementPage{
 
