@@ -1,4 +1,4 @@
-class BrowserAction{
+class BrowserUtil{
 
     browser_createNewSession(capabilities){
         browser.newSession(capabilities)
@@ -11,7 +11,7 @@ class BrowserAction{
     browser_getPageTitle(pageTitle){
         browser.waitUntil(function(){
             return (browser.getTitle() === pageTitle)
-        }, 10000, 'Title is not displayed after the given time'
+        }, 10000, 'Page Title is not displayed after the given time'
         )
         return browser.getTitle()
     }
@@ -61,4 +61,4 @@ class BrowserAction{
     }
     
 }
-module.exports = new BrowserAction()
+module.exports = new BrowserUtil()

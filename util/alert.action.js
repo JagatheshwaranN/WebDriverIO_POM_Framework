@@ -1,4 +1,4 @@
-class AlertAction{
+class AlertUtil{
 
     alert_accept(){
         browser.acceptAlert()
@@ -19,5 +19,6 @@ class AlertAction{
     alert_isOpen(){
          return browser.isAlertOpen();
     }
+    
 }
-module.exports = new AlertAction()
+module.exports = new AlertUtil()

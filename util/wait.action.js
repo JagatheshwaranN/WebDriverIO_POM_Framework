@@ -1,4 +1,4 @@
-class WaitAction{
+class WaitUtil{
 
     browser_setTime(implicit, pageLoad, script){
         browser.setTimeouts(implicit, pageLoad, script)
@@ -25,4 +25,4 @@ class WaitAction{
     }
 
 }
-module.exports = new WaitAction()
+module.exports = new WaitUtil()

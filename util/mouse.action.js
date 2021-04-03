@@ -1,18 +1,18 @@
-const waitAction = require('../util/wait.action')
-class MouseAction{
+const waitUtil = require('../util/wait.action')
+class MouseActionUtil{
 
     element_hover(element){
-        waitAction.element_waitForDisplay(element)
+        waitUtil.element_waitForDisplay(element)
         element.moveTo()
     }
 
     element_rightClick(element){
-        waitAction.element_waitForDisplay(element)
+        waitUtil.element_waitForDisplay(element)
         element.click({ button: 'right' })
     }
 
     element_doubleClick(element){
-        waitAction.element_waitForDisplay(element)
+        waitUtil.element_waitForDisplay(element)
         element.doubleClick()
     }
 
@@ -21,5 +21,6 @@ class MouseAction{
         targetElement.waitForDisplayed()
         sourceElement.dragAndDrop(targetElement)
     }
+    
 }
-module.exports = new MouseAction()
+module.exports = new MouseActionUtil()
