@@ -43,8 +43,8 @@ class HomePage{
     }
 
     navigateToUserManagementPage(){
-        mouseAction.moveToElement(this.home_AdminInTopNav)
-        mouseAction.moveToElement(this.home_UserManagementInTopNav)
+        mouseAction.element_hover(this.home_AdminInTopNav)
+        mouseAction.element_hover(this.home_UserManagementInTopNav)
         elementUtil.element_click(this.home_UsersInTopNav)
     }
 
