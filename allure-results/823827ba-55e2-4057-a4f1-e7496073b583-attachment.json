@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//table[@id='resultTable']//tr[1]//td[2]"
-}

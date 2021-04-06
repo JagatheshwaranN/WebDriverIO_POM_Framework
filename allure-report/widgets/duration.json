@@ -1,0 +1,31 @@
+[ {
+  "uid" : "d088f285e5cbd2a6",
+  "name" : "Verify login page title",
+  "time" : {
+    "start" : 1617516513330,
+    "stop" : 1617516524081,
+    "duration" : 10751
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f9a51bdf9b3276f",
+  "name" : "Verify login page logo",
+  "time" : {
+    "start" : 1617516524082,
+    "stop" : 1617516524652,
+    "duration" : 570
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8cbf08601a71124e",
+  "name" : "Verify login to application",
+  "time" : {
+    "start" : 1617516524652,
+    "stop" : 1617516532798,
+    "duration" : 8146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

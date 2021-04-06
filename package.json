@@ -4,12 +4,14 @@
   "description": "This project describes the webdriverio automation using POM approach",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/wdio ./wdio.conf.js"
+    "pretest": "rimraf allure-results && rimraf allure-report",
+    "test": "./node_modules/.bin/wdio ./wdio.conf.js",
+    "generate": "allure generate --clean allure-results && allure open allure-report"
   },
   "author": "Jaga",
   "license": "ISC",
   "devDependencies": {
-    "@wdio/allure-reporter": "^7.2.1",
+    "@wdio/allure-reporter": "^7.3.0",
     "@wdio/local-runner": "^7.2.3",
     "@wdio/mocha-framework": "^7.2.1",
     "@wdio/selenium-standalone-service": "^7.2.1",
@@ -23,6 +25,8 @@
     "webdriverio": "^7.2.3"
   },
   "dependencies": {
-    "@wdio/cli": "^7.2.3"
+    "@wdio/cli": "^7.2.3",
+    "allure-commandline": "^2.13.8",
+    "rimraf": "^3.0.2"
   }
 }

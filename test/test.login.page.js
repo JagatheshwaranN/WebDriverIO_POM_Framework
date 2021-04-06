@@ -2,10 +2,12 @@ const { assert } = require('chai')
 const loginPage = require('../pages/login.page')
 const configData = require('../data/config')
 const testData = require('../data/constants')
+const { addFeature } = require('@wdio/allure-reporter').default
 
 describe('Login page feature test', function(){
     
     it('Verify login page title', function(){
+        addFeature('Login page title')
         browser.setWindowSize(1366, 768)
         browser.url('/') 
         browser.pause(5000)
@@ -15,17 +17,13 @@ describe('Login page feature test', function(){
     })
 
     it('Verify login page logo', function(){
+        addFeature('Login page logo')
         assert.equal(true, loginPage.verifyLoginPageLogo(), 'Login page logo is not present')
     })
 
     it('Verify login to application', function(){
+        addFeature('Login to application')
         loginPage.doLoginIntoApp(configData.username, configData.password)
-    })
-
-    it('should return browser window size', function () {
-        const windowSize = browser.getWindowSize()
-        console.log(windowSize);
-        // outputs `{ width: 1280, height: 767 }`
     })
 
 })

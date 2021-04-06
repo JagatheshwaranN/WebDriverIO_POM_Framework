@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Apr 04 11:38:33 IST 2021","Sun Apr 04 11:38:44 IST 2021","10751","","Login page feature test","","Login page feature test","Verify login page title","Verify login page title",""
+"passed","Sun Apr 04 11:38:44 IST 2021","Sun Apr 04 11:38:44 IST 2021","570","","Login page feature test","","Login page feature test","Verify login page logo","Verify login page logo",""
+"passed","Sun Apr 04 11:38:44 IST 2021","Sun Apr 04 11:38:52 IST 2021","8146","","Login page feature test","","Login page feature test","Verify login to application","Verify login to application",""

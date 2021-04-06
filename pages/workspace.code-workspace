@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\Cypress_Env\\Workspace"
+		},
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\..\\..\\Protractor_Env\\Workspace"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,188 @@
+{
+  "uid" : "6f9a51bdf9b3276f",
+  "name" : "Verify login page logo",
+  "fullName" : "Login page feature test.Verify login page logo",
+  "historyId" : "44f4eaffd3a8d01be0a4fada61409190",
+  "time" : {
+    "start" : 1617516524082,
+    "stop" : 1617516524652,
+    "duration" : 570
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "login page logo test",
+      "time" : {
+        "start" : 1617516524083,
+        "stop" : 1617516524083,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1617516524084,
+        "stop" : 1617516524147,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "781565a38ee76778",
+        "name" : "Request",
+        "source" : "781565a38ee76778.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "5a75d0ff6c44e4a4",
+        "name" : "Response",
+        "source" : "5a75d0ff6c44e4a4.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1617516524180,
+        "stop" : 1617516524217,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fa2888a54be34d2b",
+        "name" : "Request",
+        "source" : "fa2888a54be34d2b.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "ae5f07875ee8806c",
+        "name" : "Response",
+        "source" : "ae5f07875ee8806c.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1617516524217,
+        "stop" : 1617516524283,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d14245e2a5f77d40",
+        "name" : "Request",
+        "source" : "d14245e2a5f77d40.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "774ec67fbc27f6f8",
+        "name" : "Response",
+        "source" : "774ec67fbc27f6f8.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1617516524284,
+        "stop" : 1617516524652,
+        "duration" : 368
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "31a3abac4398157",
+        "name" : "Screenshot",
+        "source" : "31a3abac4398157.png",
+        "type" : "image/png",
+        "size" : 103959
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Login page logo"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login page feature test"
+  }, {
+    "name" : "testClass",
+    "value" : "Login page feature test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify login page logo"
+  }, {
+    "name" : "package",
+    "value" : "Login page feature test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6f9a51bdf9b3276f.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

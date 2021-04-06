@@ -1,0 +1,56 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Login page title",
+    "children" : [ {
+      "name" : "Verify login page title",
+      "uid" : "d088f285e5cbd2a6",
+      "parentUid" : "fd96dbe36ccd1dda7ef32e04a75492bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617516513330,
+        "stop" : 1617516524081,
+        "duration" : 10751
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.114" ]
+    } ],
+    "uid" : "fd96dbe36ccd1dda7ef32e04a75492bc"
+  }, {
+    "name" : "Login page logo",
+    "children" : [ {
+      "name" : "Verify login page logo",
+      "uid" : "6f9a51bdf9b3276f",
+      "parentUid" : "72399411aefe186ccff079aa813e36fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617516524082,
+        "stop" : 1617516524652,
+        "duration" : 570
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.114" ]
+    } ],
+    "uid" : "72399411aefe186ccff079aa813e36fa"
+  }, {
+    "name" : "Login to application",
+    "children" : [ {
+      "name" : "Verify login to application",
+      "uid" : "8cbf08601a71124e",
+      "parentUid" : "fd267655070ca7798a0b1283d3985da2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617516524652,
+        "stop" : 1617516532798,
+        "duration" : 8146
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.114" ]
+    } ],
+    "uid" : "fd267655070ca7798a0b1283d3985da2"
+  } ]
+}
